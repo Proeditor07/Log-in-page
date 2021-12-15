@@ -8,7 +8,7 @@
 
 .left{
     background-color: rgb(252, 201, 119);
-    height: 100vh;
+    height: 101vh;
     width: 60vh;
 
     
@@ -214,7 +214,13 @@ h3 {
 font-size: 13px;
 
 }
-
+.social{
+    display: flex;
+}
+#decorate1{
+    text-decoration: none;
+    color:white;
+}
 @media only screen and (max-width: 768px){
     .main{
         display: block;
@@ -222,4 +228,49 @@ font-size: 13px;
     .buttons{
         display: block;
     }
+    .picture1 img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+    .picture2 img{
+        max-width: 100%;
+  height: auto;
+    }
+    .des h1{
+        font-size: 20px;
+        text-align: left;
+    }
+    .left{
+        height: auto;
+        width: auto;
+        
+    }
+    .google_button img{
+        margin: auto;
+        align-items: left;
+    
+    }
+    .google_button button{
+        /* padding: 10px 10px 10px 10px; */
+        
+    }
+    .buttons{
+        display: block;
+    }
+    .social{
+        display: flex;
+    }
+    #email{
+        width: 70%;
+    }
+    #password{
+        width: 70%;
+    }
+    #sign_up{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
 }
